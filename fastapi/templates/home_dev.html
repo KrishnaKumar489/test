@@ -1,0 +1,7 @@
+{% extends "layout.html" %} <!--uses the layout used on layout.html-->
+{% block content %}
+  {% for post in posts %}
+    <h2>{{post.name}}</h2>
+    <b>{{post.role}}</b>
+  {% endfor %}
+{% endblock content %}

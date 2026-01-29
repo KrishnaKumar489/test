@@ -1,0 +1,5 @@
+posts: list[dict] = [
+    {"id": 1, "name": "asdf", "role": "admin"},
+    {"id": 2, "name": "qwer", "role": "user"},
+    {"id": 3, "name": "zxcv", "role": "moderator"},
+]
